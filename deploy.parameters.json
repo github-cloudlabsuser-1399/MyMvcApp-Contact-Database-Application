@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "appServicePlanName": {
-      "value": "MyMvcAppServicePlan2"
+      "value": "MyMvcAppServicePlan3"
     },
     "webAppName": {
-      "value": "MyMvcApp2"
+      "value": "mvcappLeo412"
     },
     "location": {
       "value": "westus2"

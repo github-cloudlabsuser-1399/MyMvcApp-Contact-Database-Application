@@ -29,14 +29,14 @@
     "parameters": {
         "appServicePlanName": {
             "type": "string",
-            "defaultValue": "MyMvcAppServicePlan2",
+            "defaultValue": "MyMvcAppServicePlan3",
             "metadata": {
                 "description": "Nombre del plan de servicio de App Service."
             }
         },
         "webAppName": {
             "type": "string",
-            "defaultValue": "MyMvcApp",
+            "defaultValue": "mvcappLeo412",
             "metadata": {
                 "description": "Nombre de la aplicación web."
             }
