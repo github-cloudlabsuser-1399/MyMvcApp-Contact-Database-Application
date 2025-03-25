@@ -6,6 +6,12 @@
 
 <h2>Index</h2>
 
+<form asp-action="Search" method="get" style="margin-bottom: 20px;">
+    <label for="name">Find by name:</label>
+    <input type="text" id="name" name="name" />
+    <button type="submit">Search</button>
+</form>
+
 <p>
     @Html.ActionLink("Create New", "Create", "User")
 </p>
