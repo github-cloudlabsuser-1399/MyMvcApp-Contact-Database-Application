@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\azureuser\\Documents\\MyMvcApp-Contact-Database-Application\\MyMvcApp.csproj": {}
+    "/workspaces/MyMvcApp-Contact-Database-Application/MyMvcApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\azureuser\\Documents\\MyMvcApp-Contact-Database-Application\\MyMvcApp.csproj": {
+    "/workspaces/MyMvcApp-Contact-Database-Application/MyMvcApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azureuser\\Documents\\MyMvcApp-Contact-Database-Application\\MyMvcApp.csproj",
+        "projectUniqueName": "/workspaces/MyMvcApp-Contact-Database-Application/MyMvcApp.csproj",
         "projectName": "MyMvcApp",
-        "projectPath": "C:\\Users\\azureuser\\Documents\\MyMvcApp-Contact-Database-Application\\MyMvcApp.csproj",
-        "packagesPath": "C:\\Users\\azureuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azureuser\\Documents\\MyMvcApp-Contact-Database-Application\\obj\\",
+        "projectPath": "/workspaces/MyMvcApp-Contact-Database-Application/MyMvcApp.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/MyMvcApp-Contact-Database-Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\azureuser\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -50,16 +50,6 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.9.3, )"
-            },
-            "xunit.runner.visualstudio": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.0, )"
             }
           },
           "imports": [
@@ -81,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
