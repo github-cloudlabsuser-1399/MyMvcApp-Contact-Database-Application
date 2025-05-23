@@ -9,6 +9,14 @@
 <p>
     @Html.ActionLink("Create New", "Create", "User")
 </p>
+
+<form asp-action="Index" method="get" class="mb-3">
+    <div class="input-group">
+        <input type="text" name="searchTerm" class="form-control" placeholder="Search by Name, ID, or Email" value="@Context.Request.Query["searchTerm"]" />
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+</form>
+
 <table class="table">
     <tr>
         <th>
